@@ -1,0 +1,72 @@
+:root {
+    --hdbkgnd: #180E43;
+    --mnbkgnd: #d3d3d3 /*#2e1f72*/;
+}
+
+body {
+    background-color: var(--mnbkgnd);
+    color: var(--hdbkgd);
+}
+
+header {
+    margin: 0;
+    padding: 3rem;
+    background-image: url('/static/img/lightningstormbkg.jpg');
+    border-bottom: 1px solid beige;
+}
+
+header h1 {
+    background-color: var(--hdbkgnd);
+    color: white;
+}
+
+#weather-loc {
+    margin-top: 2rem;
+}
+
+#mapid { 
+    height: 200px;
+    width: 300px;
+    border: 3px solid white;
+}
+
+#weather-data {
+    margin-bottom: 3rem;
+}
+
+table {
+    margin: auto;
+    width: 60rem;
+}
+
+tr {
+    background-color: beige;
+    color: var(--hdbkgnd);
+    border: 1px solid var(--hdbkgnd);
+}
+
+td {
+    padding: 3px 1rem;
+    width: 15rem;
+}
+
+.descriptor {
+    text-align: right;
+}
+
+.condition {
+    text-align: left;
+    border-right: 1px solid var(--hdbkgnd);
+}
+
+.wx-desc {
+    text-transform: capitalize;
+}
+
+footer {
+    border-top: 1px solid beige;
+    padding-top: 1rem;
+    background-color: var(--hdbkgnd);
+    color: white;
+    padding-bottom: 1rem;
+}

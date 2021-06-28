@@ -1,0 +1,78 @@
+/* Global: The * means all */
+*{
+    margin:0
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #d3d3d3
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h3{
+    font-size:2rem;
+}
+
+p{
+    font-size:1.2rem;
+    line-height: 1.2;
+}
+
+h1,h3,img,p{
+    margin:.2rem 
+}
+
+hr.solid {
+    border-top: 3px solid rgb(58, 57, 57);
+    border-radius: 2px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer{
+    text-align: center;
+}
+
+/* Utilities */
+.container{
+    width:95%;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.site-header {
+    text-align:center;
+    height:40vh;
+    background-image: url('/static/img/developerblu.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.site-header img{
+    border: 1px solid #3a3a3a;
+    float: left;
+    height: 38vh;
+}
+
+.site-header p{
+    font-size: 1.7rem;
+}
+
+.site-header i{
+    font-size:2em;
+}
+
+#bullet{
+    font-size:1.5em;
+}
+
+#child{
+    font-size:1.5em;
+}
+
+#adult{
+    font-size:2em;
+}
